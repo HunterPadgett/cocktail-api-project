@@ -1,0 +1,14 @@
+/* Box Model Hack */
+* {
+ box-sizing: border-box;
+}
+
+img {
+ display: block;
+ margin: 0 auto;
+ height: 200px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
