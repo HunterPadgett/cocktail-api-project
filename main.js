@@ -6,7 +6,7 @@ const drinkContainer = document.querySelector(".drinkContainer");
 searchBtn.addEventListener("click", searchCocktails);
 
 function searchCocktails() {
- const drink = input.value;
+ const drink = input.value.toLowerCase();
  input.value = "";
  drinkContainer.innerHTML = "";
 
@@ -14,7 +14,7 @@ function searchCocktails() {
   .then((res) => res.json())
   .then((data) => {
    const drinkArr = data.drinks;
-   console.log(drinkArr[0]);
+   //  console.log(drinkArr[0]);
    drinkArr.forEach((drink) => {
     renderCocktail(drink);
    });
