@@ -14,6 +14,7 @@ function searchCocktails() {
   .then((res) => res.json())
   .then((data) => {
    const drinkArr = data.drinks;
+   console.log(drinkArr[0]);
    drinkArr.forEach((drink) => {
     renderCocktail(drink);
    });
@@ -26,7 +27,16 @@ function renderCocktail(data) {
   <div class='drink'>
     <h2 class='drinkName'>${data.strDrink}</h2>
     <img class='drinkImg' src="${data.strDrinkThumb}" alt="image of cocktail" />
-    <h3 class='drinkInstructions'>${data.strInstructions}</h3>
+    <ul class='drinkIngredients'>
+      ${data.strIngredient1 ? `<li>${data.strIngredient1}</li>` : ""}
+      ${data.strIngredient2 ? `<li>${data.strIngredient2}</li>` : ""}
+      ${data.strIngredient3 ? `<li>${data.strIngredient3}</li>` : ""}
+      ${data.strIngredient4 ? `<li>${data.strIngredient4}</li>` : ""}
+      ${data.strIngredient5 ? `<li>${data.strIngredient5}</li>` : ""}
+      ${data.strIngredient6 ? `<li>${data.strIngredient6}</li>` : ""}
+      ${data.strIngredient7 ? `<li>${data.strIngredient7}</li>` : ""}
+      ${data.strIngredient8 ? `<li>${data.strIngredient8}</li>` : ""}
+   </ul>
   </div>
   `;
  drinkContainer.insertAdjacentHTML("beforeend", html);
