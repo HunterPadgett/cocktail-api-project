@@ -18,8 +18,10 @@ Deployed link: https://jojosbeloved-clone.netlify.app/
 
 ## Installation
 
-To get started with this project, first clone the repository and navigate to the project directory:
-`https://github.com/HunterPadgett/cocktail-api-project.git`
+To get started with this project, first clone the repository and navigate to the project directory: <br/>
+`cd Desktop/` <br/>
+`git clone https://github.com/HunterPadgett/cocktail-api-project.git` <br/>
+`cd cocktail-api-project/`
 
 Next, install the dependencies:
 This project has no dependencies to install. Once cloned just open the index.html with Live Server
