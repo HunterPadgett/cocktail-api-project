@@ -52,6 +52,7 @@ h1 {
  font-family: "Righteous", cursive;
  width: 60%;
  background-color: #110306;
+ box-shadow: 10px 10px #ffce7d;
  border-radius: 10px;
 }
 
@@ -72,6 +73,25 @@ h2 {
 .search input,
 .search button {
  padding: 1rem;
+}
+
+.search input,
+.search button {
+ border-radius: 7px;
+ margin: 0 0.3rem;
+}
+
+.search button {
+  background-color: #e6899b;
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.356);
+  transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.search button:hover {
+  background-color: #d75a70;
+  transform: scale(1.01);
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.658);
+  cursor: pointer;
 }
 
 img {
