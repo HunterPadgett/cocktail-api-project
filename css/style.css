@@ -3,12 +3,23 @@
  box-sizing: border-box;
 }
 
+html {
+ /* this makes 1rem everywhere else = 10px - 2rem = 20px, etc. */
+ font-size: 62.5%;
+}
+
+body {
+ height: 100vh;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+  font-size: 4rem;
+}
+
 img {
  display: block;
  margin: 0 auto;
  height: 200px;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
