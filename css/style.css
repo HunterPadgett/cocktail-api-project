@@ -96,6 +96,7 @@ h2 {
 }
 
 .search button {
+ color: #110306;
  background-color: #e6899b;
  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.356);
  transition: background-color 0.1s ease-in-out, transform 0.1s ease-in-out;
@@ -166,6 +167,10 @@ ul {
 
  .search input,
  .search button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #110306;
   font-size: 1.2rem;
  }
 
@@ -204,6 +209,10 @@ ul {
 
  .search input,
  .search button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #110306;
   font-size: 1rem;
  }
 
