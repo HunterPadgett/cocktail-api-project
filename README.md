@@ -8,6 +8,8 @@ This is a client-side clone of a popular cocktail lounge in Atlanta, Georgia usi
 
 Deployed link: https://jojosbeloved-clone.netlify.app/
 
+![Screenshot 2023-03-08 112237](https://user-images.githubusercontent.com/106113692/223774001-49047591-f1ce-444b-a27d-1371ab1a8f61.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
